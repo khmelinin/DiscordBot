@@ -1,0 +1,1 @@
+node C:\Users\AdmiN\source\repos\khmelinin\DiscordBot\Bot1\bot.js

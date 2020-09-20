@@ -36,7 +36,9 @@ client.on("message", async message => {
     }
     else if (message.content.startsWith(`${prefix}gachi`))
     {
-        return message.channel.send("https://wmpics.pics/di-5BOLA0TA.gif");
+        var g = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+        var ch = g[Math.floor(Math.random() * g.length)];
+        return message.channel.send({ files: ["./img/gachi" + ch + ".gif"] });
     }
     else {
         message.channel.send("You need to enter a valid command!");
